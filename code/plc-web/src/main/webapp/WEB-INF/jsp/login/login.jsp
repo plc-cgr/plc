@@ -7,13 +7,17 @@
                 <fmt:message key="errors.password.mismatch" />
             </div>
         </c:if>
-        <div class="field-text">
+        <div class="clearfix">
             <label for="username"><fmt:message key="login.username" /></label>
-            <input type="text" tabindex="1" id="username" name="j_username" maxlength="50" size="25" value="" />
+            <div class="input">
+                <input type="text" tabindex="1" id="username" name="j_username" maxlength="50" size="25" value="" class="xlarge"/>
+            </div>
         </div>
-        <div class="field-text">
-            <label for="login"><fmt:message key="login.password" /></label>
-            <input type="password" tabindex="2" id="password" name="j_password" maxlength="50" size="25" value="" />
+        <div class="clearfix">
+            <label for="password"><fmt:message key="login.password" /></label>
+            <div class="input">
+                <input type="password" tabindex="2" id="password" name="j_password" maxlength="50" size="25" value="" class="xlarge"/>
+            </div>
         </div>
         <fmt:message key="button.signIn" var="signInLabel" />
         <input id="signInButton" class="btn primary" type="submit" value="${signInLabel}" tabindex="6" onclick="submit(); return false;" />
