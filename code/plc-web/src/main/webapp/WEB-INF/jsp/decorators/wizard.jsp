@@ -55,75 +55,51 @@
                     <div id="agreement_help" style="display: none;">
                     <h6>Table of Contents</h6>
                     <p>
-                        <a href="#description_of_volunteer_population">Description of Volunteer Population</a>
+                        <a href="#summary">Summary</a>
                     </p>
                     <p>
-                        <a href="#what_is_informed_consent">What is Informed Consent</a>
+                        <a href="#purpose_of_the_study">Purpose of the Study</a>
                     </p>
                     <p>
-                        <a href="#who_is_eligible_to_participate_in_this_study">Who is Eligible to Participate in this Study</a>
+                        <a href="#procedures">Procedures</a>
                     </p>
                     <p>
-                        <a href="#short_description_of_the_cgr_framework">Short Description of the CGR Framework</a>
+                        <a href="#risks_and_discomforts">Risks and Discomforts</a>
                     </p>
                     <p>
-                        <a href="#long_description_of_the_cgr_framework">Long Description of the CGR Framework</a>
+                        <a href="#new_information">New Information</a>
                     </p>
                     <p>
-                        <a href="#creating_the_cgr_framework">Creating the CGR Framework</a>
+                        <a href="#benefits">Benefits</a>
                     </p>
                     <p>
-                        <a href="#about_portable_legal_consent">About Portable Legal Consent</a>
+                        <a href="#costs">Costs</a>
                     </p>
                     <p>
-                        <a href="#about_this_informed_consent_document">About this Informed Consent Document</a>
-                    </p>
-
-                    <p>
-                        Article I. <a href="#purpose">PURPOSE</a>
+                        <a href="#payment_for_participation">Payment for Participation</a>
                     </p>
                     <p>
-                        Article II. <a href="#overview">OVERVIEW</a>
+                        <a href="#alternative_treatment">Alternative Treatment</a>
                     </p>
                     <p>
-                        Article III. <a href="#duration_and_participation">DURATION and PARTICIPATION</a>
+                        <a href="#confidentiality">Confidentiality</a>
                     </p>
                     <p>
-                        Article IV. <a href="#additional_study_procedures">Additional Study PROCEDURES</a>
+                        <a href="#compensation_for_injury">Compensation for Injury</a>
                     </p>
                     <p>
-                        Article V. <a href="#collection,_publication_and_return_of_data">COLLECTION, PUBLICATION and
-                            RETURN of DATA</a>
+                        <a href="#voluntary_participation_and_withdrawl">Voluntary Participation and Withdrawl</a>
                     </p>
                     <p>
-                        Article VI. <a href="#risks_and_discomforts">RISKS AND DISCOMFORTS</a>
+                        <a href="#source_of_funding_for_the_study">Source of Funding for the Study</a>
                     </p>
                     <p>
-                        Article VII. <a href="#benefits">BENEFITS</a>
+                        <a href="#questions">Questions</a>
                     </p>
                     <p>
-                        Article VIII. <a href="#intellectual_property">INTELLECTUAL PROPERTY</a>
-                    </p>
-                    <p>
-                        Article IX. <a href="#confidentiality">CONFIDENTIALITY</a>
-                    </p>
-                    <p>
-                        Article X. <a href="#refusal_or_withdrawal_of_participation">REFUSAL OR WITHDRAWAL OF
-                            PARTICIPATION</a>
-                    </p>
-                    <p>
-                        Article XI. <a href="#alternatives">ALTERNATIVES</a>
-                    </p>
-                    <p>
-                        Article XII.<a href="#research-related_contact_information"> RESEARCH-RELATED CONTACT
-                            INFORMATION</a>
-                    </p>
-                    <p>
-                        <a href="#signature">SIGNATURE</a>
+                        <a href="#consent">Consent</a>
                     </p>
                 </div>
-                </div>
-                
             </div>
         </div>
     </div>

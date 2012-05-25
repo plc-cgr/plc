@@ -49,7 +49,7 @@
         </ul>
     </p>
     
-    <h3>Purpose of the Study</h3>
+    <h3 id="purpose_of_the_study">Purpose of the Study</h3>
     
     <p>
         <ul>
@@ -79,7 +79,7 @@
         </ul>
     </p>
     
-    <h3>Procedures</h3>
+    <h3 id="procedures">Procedures</h3>
     
     <p>
         <ul>
@@ -141,7 +141,7 @@
         </ul>
     </p>
     
-    <h3>Risks and Discomforts</h3>
+    <h3 id="risks_and_discomforts">Risks and Discomforts</h3>
     
     <p>
         The main risk of donating your personal, genetic and health-related information is the loss of confidentiality.
@@ -200,13 +200,13 @@
         </ul>
     </p>
     
-    <h3>New Information</h3>
+    <h3 id="new_information">New Information</h3>
     
     <p>Participants will be informed via the study website at 
        <a href="http://weconsent.us" target="_blank">http://weconsent.us</a> about any new information that might change 
        their decision to continue to be in this study.  You may be asked to sign a new consent form if this occurs.</p>
        
-    <h3>Benefits</h3>
+    <h3 id="benefits">Benefits</h3>
     
     <p>You are not likely to directly benefit in any way as a result of your participation in the creation of a 
        Citizen-Contributed Genomic Data Cohort. The benefits will primarily be to society and to science at large.</p>
@@ -221,18 +221,18 @@
     <p>This study does not entitle you to demand data return from a biosample you submit in the context of other 
        clinical research, or of data from another study.</p>
        
-    <h3>Costs</h3>
+    <h3 id="costs">Costs</h3>
     <p>There are no costs to participate in this study.</p>
     
-    <h3>Payment for Participation</h3>
+    <h3 id="payment_for_participation">Payment for Participation</h3>
     <p>You will not be compensated for your participation in the study. Neither you nor your heirs will receive 
        financial or any other benefits from any discoveries, whether or not of a commercial nature, made using the 
        information and/or specimens that you provide.</p>
        
-    <h3>Alternative Treatment</h3>
+    <h3 id="alternative_treatment">Alternative Treatment</h3>
     <p>This is not a treatment study.  Your alternative is not to participate in this study.</p>
     
-    <h3>Confidentiality</h3>
+    <h3 id="confidentiality">Confidentiality</h3>
     <p>Study information collected about you will be given to the sponsor.  "Sponsor" means any persons or companies 
        that are working for or with the sponsor, or owned by the sponsor. It will also be given to qualified 
        researchers, which means any persons who have agreed to be bound by a set of Terms and Conditions of Use in order 
@@ -287,18 +287,18 @@
     <h5>Is my health information protected after it has been given to others?</h5>
     <p>There is a risk that your information will be given to others without your permission.</p>
     
-    <h3>Compensation for Injury</h3>
+    <h3 id="compensation_for_injury">Compensation for Injury</h3>
     <p>There is no physical participation required for this study. If you are physically injured as a result or your 
        participation in this study, please seek medical care immediately and contact the Principal Investigator.  This 
        study does not provide any health or medical care to participants</p>
        
-    <h3>Voluntary Participation and Withdrawal</h3>
+    <h3 id="voluntary_participation_and_withdrawl">Voluntary Participation and Withdrawal</h3>
     <p>Your participation in this study is voluntary.  You may decide not to participate or you may leave the study at 
        any time.  Your decision will not result in any penalty or loss of benefits to which you are entitled.</p>
     <p>Your participation in this study may be stopped at any time by the study doctor or the sponsor without your 
        consent for any reasons.</p>
        
-    <h3>Source of Funding for the Study</h3>
+    <h3 id="source_of_funding_for_the_study">Source of Funding for the Study</h3>
     <p>The sponsor Sage Bionetworks will pay for this research study.</p>
     
     <h5>Financial Disclosure</h5>
@@ -306,7 +306,7 @@
        received consulting fees from the sponsor in the past 12 months.  Please feel free to ask any further questions 
        you might have about this matter.</p>
     
-    <h3>Questions</h3>
+    <h3 id="questions">Questions</h3>
     <p>Contact Stephen Friend at +1-206-667-2062 for any of the following reasons:
         <ul>
             <li>If you have any questions about this study or your part in it,</li>
@@ -330,7 +330,7 @@
     <p>Do not sign this consent form unless you have had a chance to ask questions and have gotten satisfactory answers.</p>
     <p>If you agree to be in this study, you will receive a signed and dated copy of this consent form for your records.</p>
     
-    <h3>Consent</h3>
+    <h3 id="consent">Consent</h3>
     <p>I have read this consent form.  All my questions about the study and my part in it have been answered.  I freely 
        consent to be in this research study.</p>
     <p>I authorize the use and disclosure of my health information to the parties listed in the authorization</p>
