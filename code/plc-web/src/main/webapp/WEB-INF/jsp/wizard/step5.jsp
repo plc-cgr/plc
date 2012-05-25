@@ -5,6 +5,7 @@
             src="https://player.vimeo.com/video/37704392?api=1&player_id=ctrvideo&title=0&byline=0&portrait=0" width="500" height="375" frameborder="0"></iframe>
     </div>
 
+    <div class="alert-message error" id="ff_disabled">You must watch the video through in its entirety.</div>
     <div class="alert-message" id="video_instructions">You must finish watching the video to advance in the
         consent process.</div>
     <s:form cssClass="form-stacked" namespace="/www/wizard" action="step6" method="post">
@@ -16,6 +17,7 @@
     </s:form>
     <script type="text/javascript">
         $(document).ready(function() {
+            $('#ff_disabled').hide();
             disableNavigationUntilVideoFinishes();
             markProgress('#watchVideoStep');
         });

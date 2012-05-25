@@ -23,7 +23,14 @@ function disableNavigationUntilVideoFinishes() {
 	var player = $f(iframe);
 	player.addEvent('ready', function() {
 	    player.addEvent('finish', onFinish);
+	    player.addEvent('seek', function() {
+	        player.api('unload');
+	        player.api('play');
+	        $('#ff_disabled').show();
+	    });
 	});
+	
+	
 
 	function onFinish() {
 	    $(":submit").removeClass('disabled');
