@@ -2,19 +2,17 @@
 <div id="uploadData">
     <div id="take_survey_task">
         <h3>
-            1. Take Our Survey
+            1. <fmt:message key="uploadData.takeOurSurvey" />
             <c:choose>
                 <c:when test="${surveyTaken}">
-                    <span class="label success">Done</span>
+                    <span class="label success"><fmt:message key="uploadData.done" /></span>
                 </c:when>
                 <c:otherwise>
-                    <span class="label warning">To Do</span>
+                    <span class="label warning"><fmt:message key="uploadData.todo" /></span>
                 </c:otherwise>
             </c:choose>
         </h3>
-        <p>Thanks for helping us make our informed consent process better by alpha testing. But you're not off the hook yet. 
-        Please take the survey below - it'll only take a few minutes - so that we can learn where we need to improve. 
-        This data will form part of our submission to the required privacy and ethics authorities, so it's vital that you fill it out.</p>
+        <p><fmt:message key="uploadData.surveyDetail" /></p>
         
         <div class="actions">
             <s:form id="surveyForm" namespace="/www/protected" action="uploadData/takeSurvey" method="post">
@@ -24,28 +22,26 @@
     </div>
 
     <h3>
-        2. Upload Your Data
+        2. <fmt:message key="uploadData.uploadYourData" />
         <c:choose>
             <c:when test="${not empty retrievedPatientData}">
-                <span class="label success">Done</span>
+                <span class="label success"><fmt:message key="uploadData.done" /></span>
             </c:when>
             <c:otherwise>
-                <span class="label warning">To Do</span>
+                <span class="label warning"><fmt:message key="uploadData.todo" /></span>
             </c:otherwise>
         </c:choose>
     </h3>
-    <p>Select a file from your computer to upload. You may upload genotype data from personal genomics providers
-        (e.g. 23AndME, Navigenics, deCODEme, etc.) or medical data, such as Blue Button, My Family Health Portrait or
-        other electronic health records.</p>
+    <p><fmt:message key="uploadData.uploadYourDataDetail" /></p>
     
     <c:if test="${not empty retrievedPatientData}">
         <table>
             <thead>
                 <tr>
-                    <th>File</th>
-                    <th>Source</th>
-                    <th>Version</th>
-                    <th>Uploaded Date</th>
+                    <th><fmt:message key="uploadData.file" /></th>
+                    <th><fmt:message key="uploadData.source" /></th>
+                    <th><fmt:message key="uploadData.version" /></th>
+                    <th><fmt:message key="uploadData.uploadedDate" /></th>
                 </tr>
             </thead>
             <tbody>
@@ -64,14 +60,14 @@
         enctype="multipart/form-data">
         <fieldset>
             <div class="clearfix">
-                <label for="dataFile">Select the file to upload:&nbsp;&nbsp;</label>
+                <label for="dataFile"><fmt:message key="uploadData.dataFile" />:&nbsp;&nbsp;</label>
                 <div class="input">
                     <s:file id="dataFile" name="dataFile" />
                     <s:fielderror fieldName="dataFile" cssClass="error-message" />
                 </div>
             </div>
             <div class="clearfix">
-                <label for="">Data contained in file</label>
+                <label for=""><fmt:message key="uploadData.dataContained" /></label>
                 <div class="input">
                     <s:select id="dataType" cssClass="xlarge required" name="patientData.dataType"
                         list="%{@com.fiveamsolutions.plc.data.enums.PatientDataType@values()}" listValue="code"
@@ -80,7 +76,7 @@
                 </div>
             </div>
             <div class="clearfix">
-                <label for="">Source</label>
+                <label for=""><fmt:message key="uploadData.source" /></label>
                 <div class="input">
                     <s:select id="dataSource" cssClass="xlarge required" name="patientData.dataSource"
                         list="%{@com.fiveamsolutions.plc.data.enums.PatientDataSource@values()}" listValue="code"
@@ -89,23 +85,23 @@
                 </div>
             </div>
             <div class="clearfix">
-                <label for="">Version</label>
+                <label for=""><fmt:message key="uploadData.version" /></label>
                 <div class="input">
                     <s:textfield id="version" name="patientData.version" />
                     <s:fielderror fieldName="patientData.version" cssClass="error-message" />
                 </div>
             </div>
             <div class="clearfix">
-                <label for="">Tags (optional)</label>
+                <label for=""><fmt:message key="uploadData.tagsOptional" /></label>
                 <div class="input">
                     <s:textfield id="tags" name="tags" />
-                    <p>Enter any keywords you can think of, separated by commas.</p>
+                    <p><fmt:message key="uploadData.enterTags" /></p>
                     <s:fielderror fieldName="tags" cssClass="error-message" />
                 </div>
 
             </div>
             <div class="clearfix">
-                <label for="">Write anything else you'd like to say about this file</label>
+                <label for=""><fmt:message key="uploadData.fileComments" /></label>
                 <div class="input">
                     <s:textarea id="notes" name="patientData.notes" />
                     <s:fielderror fieldName="patientData.notes" cssClass="error-message" />
@@ -118,8 +114,7 @@
     </s:form>
 </div>
 <div id="confirmationMessage" style="display: none">
-    <p>You are uploading your personal medical or genomic data. Once you click confirm, it will be uploaded to a database
-    where researchers can use it to build models of disease and drug response.</p>
+    <p><fmt:message key="uploadData.confirmationMessage" /></p>
 </div>
 <script type="text/javascript">
     $(document).ready(function() {

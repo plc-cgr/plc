@@ -24,7 +24,7 @@
             </div>
             <div id="consent_header" class="page-header">
                 <h1>
-                    Consent to Research <small>Upload Data</small>
+                    <fmt:message key="pageTitle" /> <small><fmt:message key="uploadData" /></small>
                 </h1>
             </div>
             <div id="row" class="row">
@@ -33,25 +33,25 @@
                 </div>
                 <div id="span4" class="span4">
                     <div id="sidebar">
-                        <h6>Get Informed</h6>
+                        <h6><fmt:message key="menu.getInformed" /></h6>
                         <ul>
-                            <li id="welcomeStep">Welcome</li>
-                            <li id="termsOfUseStep">Researcher Terms of Use</li>
-                            <li id="grantRightsStep">Grant Rights</li>
-                            <li id="watchVideoStep">Watch Video</li>
-                            <li id="checkpointStep">Checkpoint</li>
-                            <li id="acknowledgeUnderstandingStep">Acknowledge Understanding</li>
+                            <li id="welcomeStep"><fmt:message key="menu.welcome" /></li>
+                            <li id="termsOfUseStep"><fmt:message key="menu.termsOfUse" /></li>
+                            <li id="grantRightsStep"><fmt:message key="menu.grantRights" /></li>
+                            <li id="watchVideoStep"><fmt:message key="menu.watchVideo" /></li>
+                            <li id="checkpointStep"><fmt:message key="menu.checkpoint" /></li>
+                            <li id="acknowledgeUnderstandingStep"><fmt:message key="menu.acknowledgeUnderstanding" /></li>
                         </ul>
-                        <h6>Consent to Research</h6>
+                        <h6><fmt:message key="menu.consentToResearch" /></h6>
                         <ul>
-                            <li id="consentFormStep">Consent Form</li>
-                            <li id="generateIdStep">Generate ID</li>
+                            <li id="consentFormStep"><fmt:message key="menu.consentForm" /></li>
+                            <li id="generateIdStep"><fmt:message key="menu.generateId" /></li>
                         </ul>
-                        <h6>Upload Your Data</h6>
+                        <h6><fmt:message key="menu.uploadYourData" /></h6>
                         <ul>
-                            <li id="userProfileStep">User Profile</li>
-                            <li id="signInStep">Sign In</li>
-                            <li id="uploadDataStep">Upload Data</li>
+                            <li id="userProfileStep"><fmt:message key="menu.userProfile" /></li>
+                            <li id="signInStep"><fmt:message key="menu.signIn" /></li>
+                            <li id="uploadDataStep"><fmt:message key="uploadData" /></li>
                         </ul>
                     </div>
                 </div>

@@ -22,7 +22,7 @@
             </div>
             <div id="consent_header" class="page-header">
                 <h1>
-                    Consent to Research <small>Getting Consent</small>
+                    <fmt:message key="pageTitle" /> <small><fmt:message key="gettingConsent" /></small>
                 </h1>
             </div>
             <div id="row" class="row">
@@ -31,73 +31,73 @@
                 </div>
                 <div id="span4" class="span4">
                     <div id="sidebar">
-                        <h6>Get Informed</h6>
+                        <h6><fmt:message key="menu.getInformed" /></h6>
                         <ul>
-                            <li id="welcomeStep">Welcome</li>
-                            <li id="termsOfUseStep">Researcher Terms of Use</li>
-                            <li id="grantRightsStep">Grant Rights</li>
-                            <li id="watchVideoStep">Watch Video</li>
-                            <li id="checkpointStep">Checkpoint</li>
-                            <li id="acknowledgeUnderstandingStep">Acknowledge Understanding</li>
+                            <li id="welcomeStep"><fmt:message key="menu.welcome" /></li>
+                            <li id="termsOfUseStep"><fmt:message key="menu.termsOfUse" /></li>
+                            <li id="grantRightsStep"><fmt:message key="menu.grantRights" /></li>
+                            <li id="watchVideoStep"><fmt:message key="menu.watchVideo" /></li>
+                            <li id="checkpointStep"><fmt:message key="menu.checkpoint" /></li>
+                            <li id="acknowledgeUnderstandingStep"><fmt:message key="menu.acknowledgeUnderstanding" /></li>
                         </ul>
-                        <h6>Consent to Research</h6>
+                        <h6><fmt:message key="menu.consentToResearch" /></h6>
                         <ul>
-                            <li id="consentFormStep">Consent Form</li>
-                            <li id="generateIdStep">Generate ID</li>
+                            <li id="consentFormStep"><fmt:message key="menu.consentForm" /></li>
+                            <li id="generateIdStep"><fmt:message key="menu.generateId" /></li>
                         </ul>
-                        <h6>Upload Your Data</h6>
+                        <h6><fmt:message key="menu.uploadYourData" /></h6>
                         <ul>
-                            <li id="userProfileStep">User Profile</li>
-                            <li id="signInStep">Sign In</li>
-                            <li id="uploadDataStep">Upload Data</li>
+                            <li id="userProfileStep"><fmt:message key="menu.userProfile" /></li>
+                            <li id="signInStep"><fmt:message key="menu.signIn" /></li>
+                            <li id="uploadDataStep"><fmt:message key="uploadData" /></li>
                         </ul>
                     </div>
                     <div id="agreement_help" style="display: none;">
-                    <h6>Table of Contents</h6>
+                    <h6><fmt:message key="toc" /></h6>
                     <p>
-                        <a href="#summary">Summary</a>
+                        <a href="#summary"><fmt:message key="toc.summary" /></a>
                     </p>
                     <p>
-                        <a href="#purpose_of_the_study">Purpose of the Study</a>
+                        <a href="#purpose_of_the_study"><fmt:message key="toc.purposeOfTheStudy" /></a>
                     </p>
                     <p>
-                        <a href="#procedures">Procedures</a>
+                        <a href="#procedures"><fmt:message key="toc.procedures" /></a>
                     </p>
                     <p>
-                        <a href="#risks_and_discomforts">Risks and Discomforts</a>
+                        <a href="#risks_and_discomforts"><fmt:message key="toc.risksAndDiscomforts" /></a>
                     </p>
                     <p>
-                        <a href="#new_information">New Information</a>
+                        <a href="#new_information"><fmt:message key="toc.newInformation" /></a>
                     </p>
                     <p>
-                        <a href="#benefits">Benefits</a>
+                        <a href="#benefits"><fmt:message key="toc.benefits" /></a>
                     </p>
                     <p>
-                        <a href="#costs">Costs</a>
+                        <a href="#costs"><fmt:message key="toc.costs" /></a>
                     </p>
                     <p>
-                        <a href="#payment_for_participation">Payment for Participation</a>
+                        <a href="#payment_for_participation"><fmt:message key="toc.paymentForParticipation" /></a>
                     </p>
                     <p>
-                        <a href="#alternative_treatment">Alternative Treatment</a>
+                        <a href="#alternative_treatment"><fmt:message key="toc.alternativeTreatment" /></a>
                     </p>
                     <p>
-                        <a href="#confidentiality">Confidentiality</a>
+                        <a href="#confidentiality"><fmt:message key="toc.confidentiality" /></a>
                     </p>
                     <p>
-                        <a href="#compensation_for_injury">Compensation for Injury</a>
+                        <a href="#compensation_for_injury"><fmt:message key="toc.compensationForInjury" /></a>
                     </p>
                     <p>
-                        <a href="#voluntary_participation_and_withdrawl">Voluntary Participation and Withdrawl</a>
+                        <a href="#voluntary_participation_and_withdrawl"><fmt:message key="toc.voluntaryParticipationAndWithdrawl" /></a>
                     </p>
                     <p>
-                        <a href="#source_of_funding_for_the_study">Source of Funding for the Study</a>
+                        <a href="#source_of_funding_for_the_study"><fmt:message key="toc.SourceOfFundingForTheStudy" /></a>
                     </p>
                     <p>
-                        <a href="#questions">Questions</a>
+                        <a href="#questions"><fmt:message key="toc.questions" /></a>
                     </p>
                     <p>
-                        <a href="#consent">Consent</a>
+                        <a href="#consent"><fmt:message key="toc.consent" /></a>
                     </p>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 <%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>
 <div id="register_form">
-    <h3>Your Profile Has Been Created</h3>
-    <p>The last step is to log in to your account and upload your data. Use the user ID and password you entered on the previous screen.</p>
+    <h3><fmt:message key="complete.profile" /></h3>
+    <p><fmt:message key="complete.lastStep" /></p>
     <s:form namespace="/www/protected" action="uploadData/view">
         <div class="actions">
-            <input type="submit" class="btn primary" value="Log in and Upload Data Now">
+            <input type="submit" class="btn primary" value="<fmt:message key="complete.logIn" />">
         </div>
     </s:form>
 </div>
