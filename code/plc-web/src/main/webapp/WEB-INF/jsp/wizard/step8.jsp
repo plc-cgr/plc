@@ -62,34 +62,34 @@
             <li><fmt:message key="step8.procedures.li1" /></li>
             <li><fmt:message key="step8.procedures.li2" /></li>
             <li><fmt:message key="step8.procedures.li3" /></li>
-            <li>:
+            <li><fmt:message key="step8.procedures.li4" />:
                 
                 <ol>
-                    <li><fmt:message key="step8.procedures.li3.li1" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li2" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li3" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li4" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li5" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li6" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li7" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li8" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li9" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li10" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li11" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li12" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li13" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li14" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li15" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li16" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li17" /></li>
-                    <li><fmt:message key="step8.procedures.li3.li18" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li1" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li2" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li3" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li4" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li5" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li6" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li7" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li8" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li9" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li10" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li11" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li12" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li13" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li14" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li15" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li16" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li17" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li18" /></li>
                 </ol>
                 <ul>
-                    <li><fmt:message key="step8.procedures.li3.li19" /></li>
+                    <li><fmt:message key="step8.procedures.li4.li19" /></li>
                 </ul>
             </li>
-            <li><fmt:message key="step8.procedures.li4" /></li>
             <li><fmt:message key="step8.procedures.li5" /></li>
+            <li><fmt:message key="step8.procedures.li6" /></li>
         </ul>
     </p>
     
