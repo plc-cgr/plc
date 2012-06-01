@@ -6,15 +6,16 @@
 
     <h3><fmt:message key="step8.title" /></h3>
     
-    <h3><fmt:message key="step8.sponsor" />: Sage Bionetworks</h3>
+    <h3><fmt:message key="step8.sponsor" /></h3>
 
-    <h3><fmt:message key="step8.investigator" />: Stephen Friend, MD, PhD. <br/> John Wilbanks</h3>
+    <h3><fmt:message key="step8.investigator" /> <fmt:message key="step8.investigator.one" /> <br/> <fmt:message key="step8.investigator.two" /></h3>
     
-    <h3><fmt:message key="step8.sites" />: Sage Bionetworks, 1100 Fairview Ave. N, Mailstop M1-C108, Seattle WA USA 98109</h3>
+    <h3><fmt:message key="step8.sites" /></h3>
     
-    <h3><fmt:message key="step8.studyRelatedPhoneNumbers" />: +1 (206) 667-2102 <br/>+1 (206) 667-2062 (<fmt:message key="fax" />)</h3>
+    <h3><fmt:message key="step8.studyRelatedPhoneNumbers" />: <fmt:message key="step8.studyRelatedPhoneNumbers.phone" /> <br/>
+    	<fmt:message key="step8.studyRelatedPhoneNumbers.fax" /> (<fmt:message key="fax" />)</h3>
     
-    <h3><fmt:message key="step8.responsibleInstitution" />: Sage Bionetworks</h3>
+    <h3><fmt:message key="step8.responsibleInstitution" /></h3>
     
     <p><fmt:message key="step8.consentForm.text" /></p>
         
@@ -113,7 +114,7 @@
     
     <h3 id="new_information"><fmt:message key="step8.newInformation" /></h3>
     <p><fmt:message key="step8.website" /> 
-       <a href="http://weconsent.us" target="_blank">http://weconsent.us</a> 
+       <a href="<fmt:message key="step8.website.url" />" target="_blank"><fmt:message key="step8.website.name" /></a> 
        <fmt:message key="step8.website.remainder" /></p>
        
     <h3 id="benefits"><fmt:message key="step8.benefits" /></h3>
@@ -149,7 +150,7 @@
         <ul>
             <li><fmt:message key="step8.confidentiality.p4.li1" /></li>
             <li><fmt:message key="step8.confidentiality.p4.li2" /></li>
-            <li><fmt:message key="step8.confidentiality.p4.li2" /></li>
+            <li><fmt:message key="step8.confidentiality.p4.li3" /></li>
         </ul>
         <fmt:message key="step8.confidentiality.p4.end" />
     </p>
@@ -173,7 +174,7 @@
        
     <h3 id="voluntary_participation_and_withdrawl"><fmt:message key="step8.voluntaryParticipationAndWithdrawl" /></h3>
     <p><fmt:message key="step8.voluntaryParticipationAndWithdrawl.p1" /></p>
-    <p><fmt:message key="step8.voluntaryParticipationAndWithdrawl.p1" /></p>
+    <p><fmt:message key="step8.voluntaryParticipationAndWithdrawl.p2" /></p>
        
     <h3 id="source_of_funding_for_the_study"><fmt:message key="step8.sourceOfFundingForTheStudy" /></h3>
     <p><fmt:message key="step8.sourceOfFundingForTheStudy.p1" /></p>
@@ -191,11 +192,11 @@
     </p>
     <p><fmt:message key="step8.questions.p2" />:</p>
     <p>  
-       <br/>Western Institutional Review Board&reg; (WIRB&reg;)<br/>
-       3535 Seventh Avenue, SW<br/>
-       Olympia, Washington  98502<br/>
-       <fmt:message key="step8.questions.p2.telephone" />:  1-800-562-4789 or 360-252-2500<br/>
-       <fmt:message key="step8.questions.p2.email" />: Help@wirb.com<br/>
+       <br/><fmt:message key="step8.wirb" /><br/>
+       <fmt:message key="step8.wirb.address1" /><br/>
+       <fmt:message key="step8.wirb.address2" /><br/>
+       <fmt:message key="step8.questions.p2.telephone" />  <fmt:message key="step8.wirb.phone" /><br/>
+       <fmt:message key="step8.questions.p2.email" />: <fmt:message key="step8.wirb.email" /><br/>
     </p>       
     <p><fmt:message key="step8.wirb.p1" /></p>
     <p><fmt:message key="step8.wirb.p2" /></p>
