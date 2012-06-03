@@ -18,7 +18,7 @@
         <div id="content" class="wrapper">
             <div id="logout_link">
                 <s:url value="/www/protected/uploadData/view.action" var="loginUrl"/>
-                <a href="${loginUrl}"><span class="label">login</span></a>
+                <a href="${loginUrl}"><span class="label"><fmt:message key="login" /></span></a>
             </div>
             <div id="consent_header" class="page-header">
                 <h1>

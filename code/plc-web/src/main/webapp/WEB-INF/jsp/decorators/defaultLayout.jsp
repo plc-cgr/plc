@@ -19,7 +19,7 @@
             <div id="logout_link">
                 <c:if test="${sessionScope.loggedIn}">
                     <s:url value="/www/login/logout.action" var="logoutUrl"/>
-                    <a href="${logoutUrl}"><span class="label">logout</span></a>
+                    <a href="${logoutUrl}"><span class="label"><fmt:message key="logout" /></span></a>
                 </c:if>
             </div>
             <div id="consent_header" class="page-header">
