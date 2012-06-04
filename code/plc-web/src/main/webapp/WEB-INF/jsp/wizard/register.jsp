@@ -65,7 +65,7 @@
             </div>
             
             <div class="actions">
-                <input type="submit" class="btn primary" value="Submit">
+                <input type="submit" class="btn primary" value="<fmt:message key="button.submit" />">
             </div>
         </fieldset>
     </s:form>

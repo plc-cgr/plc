@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>
 <div id="sage_form">
-    <h3>Sign in using your Portal Legal Consent Username</h3>
+    <h3><fmt:message key="signIn.plc" /></h3>
     <form action="j_security_check" method="post" id="loginForm" name="loginForm" onsubmit="${onSubmit} return false;">
         <c:if test="${not empty param.failedLogin}">
             <div id="error-box" class="error-box">
