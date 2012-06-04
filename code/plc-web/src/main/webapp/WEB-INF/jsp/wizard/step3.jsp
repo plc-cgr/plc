@@ -3,21 +3,33 @@
     <s:form cssClass="form-stacked" namespace="/www/wizard" action="step4" method="post">
         <fieldset>
             <div class="clearfix">
-                <label id="conditions"><fmt:message key="step3.conditions" /> <a
-                    title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#terms-of-use-modal" data-backdrop="true"
-                    data-keyboard="true"><fmt:message key="step3.termsOfUse" /></a><fmt:message key="step3.termsOfUse.remainder" />
+                <label id="conditions"><fmt:message key="step3.termsOfUse.pre" /> 
+                <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#terms-of-use-modal" 
+                	data-backdrop="true" data-keyboard="true"><fmt:message key="step3.termsOfUse" /></a>
+                    <fmt:message key="step3.termsOfUse.post" />
                 </label>
             </div>
             <div class="clearfix">
                 <div class="input">
                     <ul>
-                        <li><fmt:message key="step3.reidentify" /> <a title="Click for more info" data-toggle="modal"
-                            data-target="#re-identification-modal" data-backdrop="true" data-keyboard="true"><fmt:message key="step3.reidentify.remainder" /></a>.
+                        <li>
+                        	<fmt:message key="step3.reidentify.pre" /> 
+                        	<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
+                        	data-target="#re-identification-modal" data-backdrop="true" data-keyboard="true">
+                            <fmt:message key="step3.reidentify" /></a><fmt:message key="step3.reidentify.post" />
                         </li>
-                        <li><a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#harm-prevention-modal"
-                            data-backdrop="true" data-keyboard="true"><fmt:message key="step3.dontharm" /></a>.</li>
-                        <li><a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal"  data-target="#sharing-research-modal"
-                            data-backdrop="true" data-keyboard="true"><fmt:message key="step3.share" /></a> <fmt:message key="step3.share.remainder" /></li>.
+                        <li>
+							<fmt:message key="step3.dontharm.pre" />
+                        	<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
+                        	data-target="#harm-prevention-modal" data-backdrop="true" data-keyboard="true">
+                            <fmt:message key="step3.dontharm" /></a><fmt:message key="step3.dontharm.post" />
+                        </li>
+                        <li>
+                        	<fmt:message key="step3.share.pre" /> 
+                        	<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal"  
+                        	data-target="#sharing-research-modal" data-backdrop="true" data-keyboard="true">
+                        	<fmt:message key="step3.share" /></a><fmt:message key="step3.share.post" />
+                        </li>
                     </ul>
                     <p><fmt:message key="step3.limits" /></p>
                 </div>

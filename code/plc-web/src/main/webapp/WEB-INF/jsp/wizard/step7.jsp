@@ -6,27 +6,31 @@
                 <label id="affirmCheckboxes"><fmt:message key="step7.affirmCheckboxes" /></label>
                 <div class="input">
                     <ul class="inputs-list">
-                        <li><label> <s:checkbox cssClass="required" name="affirmUncertainty"/> <span><fmt:message key="step7.affirmUncertainty" /> <a
-                                    title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#uncertainty-and-risk-modal"
-                                    data-backdrop="true" data-keyboard="true"><fmt:message key="step7.affirmUncertainty.remainder" /></a>.
-                                    <s:fielderror fieldName="affirmUncertainty" cssClass="error-message"/>
+                        <li><label> <s:checkbox cssClass="required" name="affirmUncertainty"/> 
+                        	<span><fmt:message key="step7.affirmUncertainty.pre" /> 
+                        		<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#uncertainty-and-risk-modal"
+                                	data-backdrop="true" data-keyboard="true">
+                                	<fmt:message key="step7.affirmUncertainty" /></a><fmt:message key="step7.affirmUncertainty.post" />
+                                	<s:fielderror fieldName="affirmUncertainty" cssClass="error-message"/>
                             </span>
                         </label></li>
-                        <li><label> <s:checkbox cssClass="required" name="affirmConsent"/> <span><fmt:message key="step7.affirmConsent" /> <a
-                                    title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#providing-consent-modal"
-                                    data-backdrop="true" data-keyboard="true"><fmt:message key="consent" /></a> 
-                                    <fmt:message key="step7.affirmConsent.remainder" />
-                                    <s:fielderror fieldName="affirmConsent" cssClass="error-message"/>
+                        <li><label> <s:checkbox cssClass="required" name="affirmConsent"/> 
+                        	<span><fmt:message key="step7.affirmConsent.pre" />
+                        		<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#providing-consent-modal"
+                                    data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step7.affirmConsent" /></a><fmt:message key="step7.affirmConsent.post" />
+                            	<s:fielderror fieldName="affirmConsent" cssClass="error-message"/>
                             </span>
                         </label></li>
-                        <li><label> <s:checkbox class="required" name="affirmWithdrawlPolicy"/> <span><fmt:message key="step7.affirmWithdrawlPolicy" /> <a
-                                    title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#withdrawing-modal"
-                                    data-backdrop="true" data-keyboard="true"><fmt:message key="step7.withdraw" /></a> 
-                                    <fmt:message key="step7.affirmWithdrawlPolicy.remainder" /> 
+                        <li><label> <s:checkbox class="required" name="affirmWithdrawlPolicy"/> 
+                        	<span><fmt:message key="step7.affirmWithdrawlPolicy.pre" /> 
+                        		<a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#withdrawing-modal"
+                                    data-backdrop="true" data-keyboard="true"><fmt:message key="step7.affirmWithdrawlPolicy" /></a> 
+                                    <fmt:message key="step7.affirmWithdrawlPolicy.inter" /> 
                                     <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal"
-                                    data-target="#withdrawing-data-modal" data-backdrop="true"
-                                    data-keyboard="true"><fmt:message key="step7.affirmWithdrawlPolicy.remainder2" /></a>.
-                                    <s:fielderror fieldName="affirmWithdrawlPolicy" cssClass="error-message"/>
+                                    data-target="#withdrawing-data-modal" data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step7.affirmWithdrawlPolicy2" /></a><fmt:message key="step7.affirmWithdrawlPolicy.post" />
+                            	<s:fielderror fieldName="affirmWithdrawlPolicy" cssClass="error-message"/>
                             </span>
                         </label></li>
                     </ul>

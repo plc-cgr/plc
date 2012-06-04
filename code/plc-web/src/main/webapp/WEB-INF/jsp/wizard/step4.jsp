@@ -3,9 +3,10 @@
     <s:form cssClass="form-stacked" id="consentForm" name="rights" namespace="/www/wizard" action="step5" method="post">
         <fieldset>
             <div class="clearfix">
-                <label id="rightsCheckboxes"><fmt:message key="step4.rights" /> 
+                <label id="rightsCheckboxes"><fmt:message key="step4.rights.pre" /> 
                     <a title="Click for more info" data-toggle="modal" data-target="#qualified-researchers-modal" data-backdrop="true" data-keyboard="true">
-                    	<fmt:message key="step4.rights.remainder" /></a>
+                    	<fmt:message key="step4.rights.a" /></a>
+                    	<fmt:message key="step4.rights.post" />
                 </label>
                 <div class="input">
                     <ul class="inputs-list">
@@ -14,9 +15,9 @@
                                 <s:checkbox cssClass="required" name="researchPermission"/>
                                 <s:fielderror fieldName="researchPermission" cssClass="error-message"/>
                                 <span>
-                                    <fmt:message key="step4.rightTo" /> <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
-                                    data-target="#right-to-research-modal" data-backdrop="true" data-keyboard="true"><fmt:message key="step4.doResearch" /></a> 
-                                    <fmt:message key="step4.withMyData" />
+                                    <fmt:message key="step4.rightToResearch.pre" /> <a title="<fmt:message key="clickForMoreInfo" />" 
+                                    data-toggle="modal" data-target="#right-to-research-modal" data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step4.rightToResearch.a" /></a><fmt:message key="step4.rightToResearch.post" />
                                 </span>
                             </label>
                         </li>
@@ -25,9 +26,9 @@
                                 <s:checkbox cssClass="required" name="redistributePermission"/>
                                 <s:fielderror fieldName="redistributePermission" cssClass="error-message"/>
                                 <span>
-                                    <fmt:message key="step4.rightTo" /> <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
-                                    data-target="#right-to-redistribute-modal" data-backdrop="true" data-keyboard="true"><fmt:message key="step4.redistribute" /></a> 
-                                    <fmt:message key="step4.myData" />
+                                    <fmt:message key="step4.rightToRedistribute.pre" /> <a title="<fmt:message key="clickForMoreInfo" />" 
+                                    data-toggle="modal" data-target="#right-to-redistribute-modal" data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step4.rightToRedistribute.a" /></a><fmt:message key="step4.rightToRedistribute.post" />
                                 </span>
                             </label>
                         </li>
@@ -36,9 +37,9 @@
                                 <s:checkbox cssClass="required" name="publishPermission"/>
                                 <s:fielderror fieldName="publishPermission" cssClass="error-message"/>
                                 <span>
-                                    <fmt:message key="step4.rightTo" /> <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
-                                    data-target="#right-to-publish-modal" data-backdrop="true" data-keyboard="true"><fmt:message key="step4.publish" /></a> 
-                                    <fmt:message key="step4.fromMyData" />
+                                    <fmt:message key="step4.rightToPublish" /> <a title="<fmt:message key="clickForMoreInfo" />" 
+                                    data-toggle="modal" data-target="#right-to-publish-modal" data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step4.rightToPublish.a" /></a><fmt:message key="step4.rightToPublish.post" />
                                 </span>
                             </label>
                         </li>
@@ -47,9 +48,9 @@
                                 <s:checkbox cssClass="required" name="commercializePermission"/>
                                 <s:fielderror fieldName="commercializePermission" cssClass="error-message"/>
                                 <span>
-                                    <fmt:message key="step4.rightTo" /> <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" 
-                                    data-target="#right-to-commercialize-modal" data-backdrop="true" data-keyboard="true"><fmt:message key="step4.commercialize" /></a> 
-                                    <fmt:message key="step4.onMyData" />
+                                    <fmt:message key="step4.rightToCommercialize.pre" /> <a title="<fmt:message key="clickForMoreInfo" />" 
+                                    data-toggle="modal" data-target="#right-to-commercialize-modal" data-backdrop="true" data-keyboard="true">
+                                    <fmt:message key="step4.rightToCommercialize" /></a><fmt:message key="step4.rightToCommercialize.post" />
                                 </span>
                             </label>
                         </li>
