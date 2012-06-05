@@ -243,13 +243,13 @@
             </div>
 
             <div class="clearfix">
-                <label for="today"><fmt:message key="date" /></label>
+                <label for="date"><fmt:message key="date" /></label>
                 <div class="input">
                     <s:textfield cssClass="xlarge disabled" id="date" name="today" />
                     <s:fielderror fieldName="today" cssClass="error-message"/>
                 </div>
                 <div class="actions">
-                    <input type="submit" class="btn primary" value="<fmt:message key="step8.submit" />">
+                    <input type="submit" class="btn primary" value="<fmt:message key="step8.submit" />" />
                 </div>
             </div>
         </fieldset>
