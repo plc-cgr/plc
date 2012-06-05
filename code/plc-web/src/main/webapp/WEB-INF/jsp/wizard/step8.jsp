@@ -4,13 +4,13 @@
     <!-- The Beginning of a Record -->
     <h2><fmt:message key="step8.header" /></h2>
 
-    <h3><fmt:message key="step8.title" /></h3>
+    <h3><fmt:message key="step8.title" />: <fmt:message key="step8.title.value" /></h3>
     
-    <h3><fmt:message key="step8.sponsor" /></h3>
+    <h3><fmt:message key="step8.sponsor" />: <fmt:message key="step8.sponsor.value" /></h3>
 
-    <h3><fmt:message key="step8.investigator" /> <fmt:message key="step8.investigator.one" /> <br/> <fmt:message key="step8.investigator.two" /></h3>
+    <h3><fmt:message key="step8.investigator" />: <fmt:message key="step8.investigator.one" /> <br/> <fmt:message key="step8.investigator.two" /></h3>
     
-    <h3><fmt:message key="step8.sites" /></h3>
+    <h3><fmt:message key="step8.sites" />: <fmt:message key="step8.sites.value" /></h3>
     
     <h3><fmt:message key="step8.studyRelatedPhoneNumbers" />: <fmt:message key="step8.studyRelatedPhoneNumbers.phone" /> <br/>
     	<fmt:message key="step8.studyRelatedPhoneNumbers.fax" /> (<fmt:message key="fax" />)</h3>
