@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="actions">
-                <s:submit cssClass="btn primary" value="<fmt:message key="menu.generateId" />"/>
+                <input type="submit" class="btn primary" value="<fmt:message key="menu.generateId" />" />
             </div>
         </fieldset>
     </s:form>
