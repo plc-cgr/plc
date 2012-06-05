@@ -3,10 +3,9 @@
     <s:form cssClass="form-stacked" namespace="/www/wizard" action="step4" method="post">
         <fieldset>
             <div class="clearfix">
-                <label id="conditions"><fmt:message key="step3.termsOfUse.pre" /> 
+                <label id="conditions"><fmt:message key="step3.termsOfUse.pre" />
                 <a title="<fmt:message key="clickForMoreInfo" />" data-toggle="modal" data-target="#terms-of-use-modal" 
-                	data-backdrop="true" data-keyboard="true"><fmt:message key="step3.termsOfUse" /></a>
-                    <fmt:message key="step3.termsOfUse.post" />
+                	data-backdrop="true" data-keyboard="true"><fmt:message key="step3.termsOfUse" /></a><fmt:message key="step3.termsOfUse.post" />
                 </label>
             </div>
             <div class="clearfix">

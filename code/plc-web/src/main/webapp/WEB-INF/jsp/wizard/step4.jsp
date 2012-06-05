@@ -5,8 +5,7 @@
             <div class="clearfix">
                 <label id="rightsCheckboxes"><fmt:message key="step4.rights.pre" /> 
                     <a title="Click for more info" data-toggle="modal" data-target="#qualified-researchers-modal" data-backdrop="true" data-keyboard="true">
-                    	<fmt:message key="step4.rights.a" /></a>
-                    	<fmt:message key="step4.rights.post" />
+                    	<fmt:message key="step4.rights.a" /></a><fmt:message key="step4.rights.post" />
                 </label>
                 <div class="input">
                     <ul class="inputs-list">
