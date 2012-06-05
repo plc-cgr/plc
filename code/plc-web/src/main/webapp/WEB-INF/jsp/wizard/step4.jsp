@@ -57,7 +57,7 @@
                     <span class="help-block"> <fmt:message key="step4.allBoxes" /> </span>
                 </div>
                 <div class="actions">
-                    <input type="submit" class="btn primary" value="Next">
+                    <input type="submit" class="btn primary" value="<fmt:message key="step4.submit" />">
                 </div>
             </div>
         </fieldset>
