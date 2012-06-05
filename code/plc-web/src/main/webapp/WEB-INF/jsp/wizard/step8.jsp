@@ -245,7 +245,7 @@
             <div class="clearfix">
                 <label for="today"><fmt:message key="date" /></label>
                 <div class="input">
-                    <s:textfield cssClass="xlarge disabled" id="today" name="today" />
+                    <s:textfield cssClass="xlarge disabled" id="date" name="today" />
                     <s:fielderror fieldName="today" cssClass="error-message"/>
                 </div>
                 <div class="actions">
