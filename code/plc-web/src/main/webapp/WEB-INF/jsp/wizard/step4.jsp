@@ -36,7 +36,7 @@
                                 <s:checkbox cssClass="required" name="publishPermission"/>
                                 <s:fielderror fieldName="publishPermission" cssClass="error-message"/>
                                 <span>
-                                    <fmt:message key="step4.rightToPublish" /> <a title="<fmt:message key="clickForMoreInfo" />" 
+                                    <fmt:message key="step4.rightToPublish.pre" /> <a title="<fmt:message key="clickForMoreInfo" />" 
                                     data-toggle="modal" data-target="#right-to-publish-modal" data-backdrop="true" data-keyboard="true">
                                     <fmt:message key="step4.rightToPublish.a" /></a><fmt:message key="step4.rightToPublish.post" />
                                 </span>
@@ -49,7 +49,7 @@
                                 <span>
                                     <fmt:message key="step4.rightToCommercialize.pre" /> <a title="<fmt:message key="clickForMoreInfo" />" 
                                     data-toggle="modal" data-target="#right-to-commercialize-modal" data-backdrop="true" data-keyboard="true">
-                                    <fmt:message key="step4.rightToCommercialize" /></a><fmt:message key="step4.rightToCommercialize.post" />
+                                    <fmt:message key="step4.rightToCommercialize.a" /></a><fmt:message key="step4.rightToCommercialize.post" />
                                 </span>
                             </label>
                         </li>
