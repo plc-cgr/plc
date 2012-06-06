@@ -50,6 +50,7 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
+    	$.datepicker.setDefaults($.datepicker.regional['']);
         $('#dob').datepicker($.datepicker.regional['<s:property value="%{locale}"/>']);
         $('#dob').datepicker({
             changeMonth: true,
