@@ -72,10 +72,6 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
-    	$('#dob').datepicker({
-    		changeMonth: true,
-    		changeYear: true
-    	});
         markProgress('#userProfileStep');
     });
 </script>

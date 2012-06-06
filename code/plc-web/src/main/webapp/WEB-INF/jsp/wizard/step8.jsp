@@ -259,7 +259,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
     	$('#agreement_help').show();
-        $('#date').datepicker();
+        $('#date').datepicker($.datepicker.regional['<s:property value="%{locale}"/>']);
         $('#date').datepicker('setDate', new Date());
         markProgress('#consentFormStep');
     });

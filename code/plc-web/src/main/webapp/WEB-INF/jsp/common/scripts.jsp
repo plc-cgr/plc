@@ -4,6 +4,7 @@
 
 <script type="text/javascript" src="<c:url value="/scripts/jquery/jquery-1.7.1.min.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/scripts/jquery/jquery-ui-1.8.18.custom.min.js"/>"></script>
+<script type="text/javascript" src="<c:url value="/scripts/jquery/jquery-ui-i18n.min.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/scripts/froogaloop/froogaloop.min.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/scripts/bootstrap/bootstrap-modal.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/scripts/plc-wizard.js"/>"></script>
