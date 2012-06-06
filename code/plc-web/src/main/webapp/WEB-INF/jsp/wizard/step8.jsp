@@ -34,7 +34,7 @@
             <li><fmt:message key="step8.thingsToKnowBefore.li1" /></li>
             <li><fmt:message key="step8.thingsToKnowBefore.li2" /></li>
             <li><fmt:message key="step8.thingsToKnowBefore.li3" /></li>
-            <li><fmt:message key="step8.thingsToKnowBefore.li4" />.</li>
+            <li><fmt:message key="step8.thingsToKnowBefore.li4" /></li>
             <li><fmt:message key="step8.thingsToKnowBefore.li5" /></li>
         </ul>
     </p>
