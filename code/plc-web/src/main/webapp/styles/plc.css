@@ -655,3 +655,10 @@ ul li.viewed {
 #agreement_form ul li {
     color: #000000;
 }
+
+#fiveam-footer-logo {
+    margin-top: 30px; /* Move this up so that its beside the right gutter */
+    width: 252px;
+    height: 69px;
+    background: url('../images/open_powered_by_5am.png');
+}
