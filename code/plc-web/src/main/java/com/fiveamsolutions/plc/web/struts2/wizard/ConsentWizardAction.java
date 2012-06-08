@@ -42,6 +42,21 @@ public class ConsentWizardAction extends ActionSupport implements SessionAware {
     protected static final String FIELD_REQUIRED_KEY = "action.requiredFieldMessage";
 
     /**
+     * Field password invalid key.
+     */
+    protected static final String FIELD_PASSWORD_INVALID_KEY = "action.password.invalid";
+
+    /**
+     * Field repeat password mismatch key.
+     */
+    protected static final String FIELD_REPEAT_PASSWORD_MISSMATCH_KEY = "action.repeat.password.mismatch";
+
+    /**
+     * Field repeat password mismatch key.
+     */
+    protected static final String FIELD_REPEAT_EMAIL_MISSMATCH_KEY = "action.repeat.email.mismatch";
+
+    /**
      * Next.
      */
     public static final String NEXT = "next";

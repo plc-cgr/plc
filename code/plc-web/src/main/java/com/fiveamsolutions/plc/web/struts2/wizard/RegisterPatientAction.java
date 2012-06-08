@@ -83,15 +83,15 @@ public class RegisterPatientAction extends ConsentWizardAction {
     public void validate() {
         super.validate();
         if (!Pattern.matches(PASSWORD_PATTERN, user.getPassword())) {
-            addFieldError("user.password", getText("errors.password.invalid"));
+            addFieldError("user.password", getText(FIELD_PASSWORD_INVALID_KEY));
         }
         if (!StringUtils.equals(user.getPassword(), getRepeatPassword())) {
-            addFieldError("user.password", "Passwords must match.");
-            addFieldError("repeatPassword", "Passwords must match.");
+            addFieldError("user.password", getText(FIELD_REPEAT_PASSWORD_MISSMATCH_KEY));
+            addFieldError("repeatPassword", getText(FIELD_REPEAT_PASSWORD_MISSMATCH_KEY));
         }
         if (!StringUtils.equals(user.getEmail(), getRepeatEmail())) {
-            addFieldError("user.email", "Email Addresses must match.");
-            addFieldError("repeatEmail", "Email Addresses must match.");
+            addFieldError("user.email", getText(FIELD_REPEAT_EMAIL_MISSMATCH_KEY));
+            addFieldError("repeatEmail", getText(FIELD_REPEAT_EMAIL_MISSMATCH_KEY));
         }
         if (StringUtils.isEmpty(challengeQuestion)) {
             addFieldError("challengeQuestion", getText(FIELD_REQUIRED_KEY));
