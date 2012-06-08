@@ -58,7 +58,7 @@ public class HibernateValidatorInterceptor extends AbstractInterceptor {
      * of the ValidatorFactory.
      */
     public HibernateValidatorInterceptor() {
-    	// Added to facilitate customization and enabling correct i8n behavior for HibernateValidator messages.
+        // Added to facilitate customization and enabling correct i8n behavior for HibernateValidator messages.
         Configuration config = Validation.byDefaultProvider().configure();
         config = config.messageInterpolator(config.getDefaultMessageInterpolator());
         validatorFactory = config.buildValidatorFactory();
