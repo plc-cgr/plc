@@ -16,6 +16,11 @@
         </fieldset>
     </s:form>
 </div>
+<div id="footer-logo-container">
+    <a href="http://www.5amsolutions.com" id="footer-logo">&nbsp;</a>
+    <br />
+    <a href="https://github.com/plc-cgr/plc.git">get the source code here</a>
+</div>
 <script type="text/javascript">
     $(document).ready(function() {
         markProgress('#welcomeStep');

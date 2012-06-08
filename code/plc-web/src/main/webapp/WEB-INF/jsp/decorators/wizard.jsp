@@ -28,7 +28,6 @@
             <div id="row" class="row">
                 <div id="span10" class="span10">
                     <decorator:body />
-                    <div id="fiveam-footer-logo"></div>
                 </div>
                 <div id="span4" class="span4">
                     <div id="sidebar">
