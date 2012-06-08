@@ -25,6 +25,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 import javax.validation.ConstraintViolation;
+import javax.validation.Configuration;
 import javax.validation.Path;
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -49,8 +50,19 @@ public class HibernateValidatorInterceptor extends AbstractInterceptor {
     private static final long serialVersionUID = 1L;
     private static final Logger LOG = LoggerFactory.getLogger(HibernateValidatorInterceptor.class);
 
-    private final ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
+    private final ValidatorFactory validatorFactory;
     private final Set<String> excludedMethodsSet = new LinkedHashSet<String>();
+    
+    /**
+     * No args constructor to allow for configuration
+     * of the ValidatorFactory.
+     */
+    public HibernateValidatorInterceptor() {
+    	// Added to facilitate customization and enabling correct i8n behavior for HibernateValidator messages.
+        Configuration config = Validation.byDefaultProvider().configure();
+        config = config.messageInterpolator(config.getDefaultMessageInterpolator());
+        validatorFactory = config.buildValidatorFactory();
+    }
 
     /**
      * @return the excludeMethods
