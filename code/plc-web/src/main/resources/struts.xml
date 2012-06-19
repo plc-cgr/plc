@@ -15,7 +15,7 @@
                 <interceptor-ref name="params">
                     <param name="excludeParams">dojo\..*,^struts\..*</param>
                 </interceptor-ref>
-                <interceptor-ref name="servletConfig" />
+                <interceptoror-ref name="servletConfig" />
                 <interceptor-ref name="prepare" />
                 <interceptor-ref name="chain" />
                 <interceptor-ref name="modelDriven" />
