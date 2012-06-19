@@ -37,13 +37,7 @@ import org.apache.commons.lang3.StringUtils;
 @SuppressWarnings("PMD.SignatureDeclareThrowsException")
 public class JAXBDateAdapter extends XmlAdapter<String, Date> {
 
-    // hack for discrepancy between calendar and struts2 in terms of
-    // supported languages
-    Locale tempLocale = Locale.getDefault();
-    if (!tempLocale.fr || !tempLocale.de || !tempLocale.nl) { 
-        tempLocale.setLocale(en);
-    }
-    private final DateFormat df = new SimpleDateFormat("yyyyMMdd", tempLocale);
+    private final DateFormat df = new SimpleDateFormat("yyyyMMdd", Locale.getDefault());
 
     /**
      * {@inheritDoc}
